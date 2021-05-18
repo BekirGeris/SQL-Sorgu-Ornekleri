@@ -1,7 +1,7 @@
---MA–AZALARIN B›R TAKIM B›LG›LER›N› SUBE ADINA G÷RE G÷R‹NT‹LE
+--MA√êAZALARIN B√ùR TAKIM B√ùLG√ùLER√ùN√ù SUBE ADINA G√ñRE G√ñR√úNT√úLE
 Select 
 BRANCH,
-sum(LINENET) AS 'Toplam Sat˝s', COUNT(*) as 'Satir Sayisi', 
+sum(LINENET) AS 'Toplam Satis', COUNT(*) as 'Satir Sayisi', 
 MIN(LINENET) as 'En dusuk satis', MAX(LINENET) as 'En yuksek satis', 
 AVG(LINENET) as 'Ortalama Satis'
 from SALES --WHERE BRANCH = 'iSTANBUL Subesi'
